@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Jean May Calomay – Power BI Developer & Consultant. Portfolio showcasing Power BI dashboards, Power Platform solutions, and data analytics projects." />
+  <title>Jean May Calomay | Power BI Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ── PAGE LOADER ── -->
+  <div id="loader" class="loader">
+    <div class="loader-box">
+      <div class="loader-logo">JMC</div>
+      <div class="loader-bar"><div class="loader-prog"></div></div>
+    </div>
+  </div>
+
+  <!-- ── NAVBAR ── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-badge">JMC</span>
+        <span class="brand-name">Jean May Calomay</span>
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#certificates" class="nav-link">Certificates</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+          <i class="fas fa-sun" id="themeIcon"></i>
+        </button>
+        <a href="JM Updated_Resume.pdf" download="JM_Updated_Resume.pdf" class="btn-resume">
+          <i class="fas fa-file-download"></i>
+          <span>Resume</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero" class="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-avatar-col">
+        <div class="avatar-wrap">
+          <div class="avatar-ring ring-outer"></div>
+          <div class="avatar-ring ring-inner"></div>
+          <div class="avatar-circle">
+            <img src="JM_pic.png" alt="Jean May Calomay" class="avatar-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <span class="avatar-initials">JMC</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-text-col">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Jean May<br />Calomay</h1>
+        <div class="hero-role-wrap">
+          <span class="role-static">A </span>
+          <span id="typingText" class="typing-text"></span><span class="cursor-blink">|</span>
+        </div>
+        <p class="hero-tagline">Transforming raw data into meaningful insights through interactive dashboards, automated reporting, and scalable Power Platform solutions.</p>
+        <div class="hero-cta">
+          <a href="#portfolio" class="btn btn-primary"><i class="fas fa-briefcase"></i> View Projects</a>
+          <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Hire Me</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/jeanmaycalomay" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/jmcalomay" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="mailto:jmcalomay@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="tel:+639299666175" aria-label="Phone"><i class="fas fa-phone"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint" aria-label="Scroll down">
+      <span>Scroll</span>
+      <div class="scroll-line"><div class="scroll-ball"></div></div>
+    </a>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about" class="section">
+    <div class="container">
+      <span class="sec-tag reveal">Get to know me</span>
+      <h2 class="sec-title reveal">About Me</h2>
+
+      <div class="about-grid">
+        <div class="about-left reveal">
+          <p class="about-lead">Results-driven <strong>Power BI Developer &amp; Consultant</strong> with a strong background in financial analytics, process automation, and data-driven decision-making.</p>
+          <p>With over 10 years of professional experience across consulting, finance, and technology, I specialize in building interactive Power BI dashboards, implementing Acterys-powered reporting systems, and automating business processes using Microsoft Power Platform.</p>
+          <p>I combine technical expertise with deep business acumen &mdash; bridging the gap between raw data and actionable insights that empower organizations to make smarter, faster decisions.</p>
+
+          <div class="info-list">
+            <div class="info-row"><i class="fas fa-map-marker-alt"></i><span>Nangka, Marikina City, Philippines</span></div>
+            <div class="info-row"><i class="fas fa-phone"></i><a href="tel:+639299666175">+63 929 9666 175</a></div>
+            <div class="info-row"><i class="fas fa-envelope"></i><a href="mailto:jmcalomay@gmail.com">jmcalomay@gmail.com</a></div>
+            <div class="info-row"><i class="fas fa-linkedin"></i><a href="https://www.linkedin.com/in/jeanmaycalomay" target="_blank" rel="noopener">linkedin.com/in/jeanmaycalomay</a></div>
+            <div class="info-row"><i class="fab fa-github"></i><a href="https://github.com/jmcalomay" target="_blank" rel="noopener">github.com/jmcalomay</a></div>
+          </div>
+
+          <div class="hobbies-block">
+            <h4>Interests &amp; Hobbies</h4>
+            <div class="chips">
+              <span class="chip"><i class="fas fa-chart-bar"></i> Data Visualization</span>
+              <span class="chip"><i class="fas fa-robot"></i> Process Automation</span>
+              <span class="chip"><i class="fas fa-cloud"></i> Cloud Technologies</span>
+              <span class="chip"><i class="fas fa-code"></i> Vibe Coding</span>
+              <span class="chip"><i class="fas fa-book"></i> Continuous Learning</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-right reveal">
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-icon"><i class="fas fa-chart-line"></i></div>
+              <div class="stat-val"><span class="count-up" data-target="10">0</span><sup>+</sup></div>
+              <div class="stat-lbl">Years Experience</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon"><i class="fas fa-project-diagram"></i></div>
+              <div class="stat-val"><span class="count-up" data-target="20">0</span><sup>+</sup></div>
+              <div class="stat-lbl">Projects Delivered</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon"><i class="fas fa-certificate"></i></div>
+              <div class="stat-val"><span class="count-up" data-target="5">0</span><sup>+</sup></div>
+              <div class="stat-lbl">Certifications</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon"><i class="fas fa-building"></i></div>
+              <div class="stat-val"><span class="count-up" data-target="3">0</span></div>
+              <div class="stat-lbl">Companies Worked</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section id="skills" class="section alt-bg">
+    <div class="container">
+      <span class="sec-tag reveal">Expertise</span>
+      <h2 class="sec-title reveal">Skills & Capabilities</h2>
+      <div class="skills-layout">
+
+        <div class="skills-bars reveal">
+          <h3>Core Competencies</h3>
+          <div class="skill-row">
+            <div class="skill-hdr"><span>Power BI &amp; Data Analytics</span><span>95%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-w="95"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-hdr"><span>Advanced Excel (Power Pivot, VBA, Power Query)</span><span>92%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-w="92"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-hdr"><span>Microsoft Power Platform</span><span>90%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-w="90"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-hdr"><span>Acterys (Planning &amp; Reporting)</span><span>88%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-w="88"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-hdr"><span>SQL</span><span>85%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-w="85"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-hdr"><span>Microsoft Azure &amp; Fabric</span><span>82%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-w="82"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-hdr"><span>Project Management</span><span>80%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-w="80"></div></div>
+          </div>
+        </div>
+
+        <div class="skills-tools reveal">
+          <h3>Tools &amp; Technologies</h3>
+          <div class="tools-grid">
+            <div class="tool-card"><i class="fas fa-chart-bar"></i><span>Power BI</span></div>
+            <div class="tool-card"><i class="fas fa-bolt"></i><span>Power Automate</span></div>
+            <div class="tool-card"><i class="fas fa-mobile-alt"></i><span>PowerApps</span></div>
+            <div class="tool-card"><i class="fab fa-microsoft"></i><span>Microsoft Azure</span></div>
+            <div class="tool-card"><i class="fas fa-cloud"></i><span>Microsoft Fabric</span></div>
+            <div class="tool-card"><i class="fas fa-calculator"></i><span>Acterys</span></div>
+            <div class="tool-card"><i class="fas fa-database"></i><span>SQL</span></div>
+            <div class="tool-card"><i class="fas fa-file-excel"></i><span>Advanced Excel</span></div>
+            <div class="tool-card"><i class="fas fa-filter"></i><span>Power Query</span></div>
+            <div class="tool-card"><i class="fas fa-share-alt"></i><span>SharePoint</span></div>
+            <div class="tool-card"><i class="fab fa-jira"></i><span>JIRA Cloud</span></div>
+            <div class="tool-card"><i class="fas fa-drafting-compass"></i><span>Visio</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE & EDUCATION ── -->
+  <section id="experience" class="section">
+    <div class="container">
+      <span class="sec-tag reveal">My Journey</span>
+      <h2 class="sec-title reveal">Experience & Education</h2>
+
+      <div class="tab-bar reveal">
+        <button class="tab-btn active" data-tab="work">
+          <i class="fas fa-briefcase"></i> Work Experience
+        </button>
+        <button class="tab-btn" data-tab="edu">
+          <i class="fas fa-graduation-cap"></i> Education
+        </button>
+      </div>
+
+      <!-- Work Experience -->
+      <div class="tab-pane active" id="tab-work">
+        <div class="timeline">
+
+          <div class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <span class="tl-label">Oct 2024 &ndash; Present</span>
+              <div class="tl-head">
+                <h3>Power BI Developer | Consultant</h3>
+                <span class="tl-badge">Current</span>
+              </div>
+              <div class="tl-meta">
+                <span><i class="fas fa-building"></i> FP&amp;Automation</span>
+                <span><i class="fas fa-map-marker-alt"></i> Philippines</span>
+              </div>
+              <ul class="tl-list">
+                <li>Power BI &amp; Data Analytics: Developed interactive Power BI dashboards, leveraging SQL for data manipulation, reporting, and cross-departmental decision-making.</li>
+                <li>Automated Accounting System: Implemented Acterys with Power BI to streamline financial consolidation, real-time reporting, and data reconciliation, reducing manual effort and errors.</li>
+                <li>Enhanced Financial Insights: Developed dynamic dashboards and forecasting models, leveraging Acterys' write-back capabilities for improved financial planning and decision-making.</li>
+                <li>ADF and Fabric data integration.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <span class="tl-label">Jun 2019 &ndash; Aug 2024</span>
+              <div class="tl-head"><h3>Associate</h3></div>
+              <div class="tl-meta">
+                <span><i class="fas fa-building"></i> Willis Towers Watson</span>
+                <span><i class="fas fa-map-marker-alt"></i> Philippines</span>
+              </div>
+              <ul class="tl-list">
+                <li>Developed interactive Power BI dashboards, and utilized VBA and SQL for data manipulation and reporting, driving data-driven decisions across departments.</li>
+                <li>Tools SME &amp; Member of Tools Development Team.</li>
+                <li>Conducted technical reviews and audits for colleagues in Mumbai and Manila, ensuring data accuracy and compliance across teams.</li>
+                <li>Financial Modelling &amp; Analysis: Built and maintained forecasting models (FPA, PUT, IBNR, FBS), conducted variance analysis, and provided insights for performance improvement.</li>
+                <li>Process Automation &amp; Tools Development: Automated manual processes using Microsoft Power Platform (PowerApps, Power Automate, Power BI) and conducted technical reviews to ensure data accuracy and compliance.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <span class="tl-label">Jun 2015 &ndash; Mar 2019</span>
+              <div class="tl-head"><h3>Analyst (Multiple Roles)</h3></div>
+              <div class="tl-meta">
+                <span><i class="fas fa-building"></i> Accenture</span>
+                <span><i class="fas fa-map-marker-alt"></i> Philippines</span>
+              </div>
+              <ul class="tl-list">
+                <li><strong>Quality Auditing Analyst:</strong> Performed internal audit and external validation; assisted on technical issues.</li>
+                <li><strong>Transaction Analyst:</strong> Responsible for end-to-end transaction processing of insurance benefits; updated database and performed outreach per processing manual guidelines.</li>
+                <li><strong>Claims Analyst:</strong> Analyzed and reviewed insurance claims for accuracy, completeness, and eligibility; assisted in controlling the cost of processing claims.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div class="tab-pane" id="tab-edu">
+        <div class="timeline">
+
+          <div class="tl-item reveal">
+            <div class="tl-dot edu-dot"></div>
+            <div class="tl-card">
+              <span class="tl-label">2011 &ndash; 2015</span>
+              <div class="tl-head"><h3>Bachelor in Banking and Finance</h3></div>
+              <div class="tl-meta">
+                <span><i class="fas fa-university"></i> Polytechnic University of the Philippines</span>
+                <span><i class="fas fa-map-marker-alt"></i> Sta. Mesa, Manila</span>
+              </div>
+              <ul class="tl-list">
+                <li>Graduated with a degree in Banking and Finance, building a strong foundation in financial analysis, accounting principles, and economic theory.</li>
+                <li>Developed analytical and quantitative skills applied later in financial modeling, forecasting, and data analytics roles.</li>
+                <li>Passed the Civil Service Exam, demonstrating strong aptitude in professional and analytical competencies.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── PORTFOLIO ── -->
+  <section id="portfolio" class="section alt-bg">
+    <div class="container">
+      <span class="sec-tag reveal">My Work</span>
+      <h2 class="sec-title reveal">Featured Projects</h2>
+
+      <div class="filter-bar reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="powerbi">Power BI</button>
+        <button class="filter-btn" data-filter="power-platform">Power Platform</button>
+        <button class="filter-btn" data-filter="dotnet">.NET Apps</button>
+        <button class="filter-btn" data-filter="analytics">Analytics</button>
+      </div>
+
+      <div class="portfolio-grid" id="portfolioGrid">
+
+        <div class="p-card reveal" data-cat="power-platform" data-title="Leave Management App" data-images='["Leave App/Home.png","Leave App/Admin.png","Leave App/Employee.png","Leave App/Leave Calendar.png","Leave App/Leave Dashboard.png","Leave App/Leave Summary.png"]'>
+          <div class="p-thumb p-img">
+            <img src="Leave App/Home.png" alt="Leave App Home" loading="lazy" />
+            <div class="p-overlay"><span class="p-cat-tag">Power Platform</span></div>
+          </div>
+          <div class="p-body">
+            <h3>Leave Management App</h3>
+            <p>A comprehensive leave management application built using Microsoft Power Platform (PowerApps &amp; Power Automate). Features role-based access with dedicated admin and employee views, an interactive leave calendar, real-time dashboard, and automated approval workflows — streamlining HR leave tracking and reducing manual processing.</p>
+            <div class="p-tags">
+              <span>PowerApps</span>
+              <span>Power Automate</span>
+              <span>Power BI</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-card reveal" data-cat="powerbi" data-title="OPEX Planning &amp; Reporting" data-images='["OPEX Report/Home.png","OPEX Report/OPEX Planning.png","OPEX Report/OPEX Reporting.png","OPEX Report/OPEX Reporting 2.png","OPEX Report/Currency Rates Planning.png","OPEX Report/Scenario Management.png","OPEX Report/Approval Workflow.png"]'>
+          <div class="p-thumb p-img">
+            <img src="OPEX Report/Home.png" alt="OPEX Report Home" loading="lazy" />
+            <div class="p-overlay"><span class="p-cat-tag">Power BI</span></div>
+          </div>
+          <div class="p-body">
+            <h3>OPEX Planning &amp; Reporting</h3>
+            <p>An end-to-end OPEX (Operating Expenditure) planning and reporting solution built in Power BI with Acterys integration. Features multi-currency support, scenario management, budget planning, approval workflows, and dynamic reporting views — enabling accurate financial forecasting and cross-departmental visibility.</p>
+            <div class="p-tags">
+              <span>Power BI</span>
+              <span>Acterys</span>
+              <span>Financial Reporting</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-card reveal" data-cat="powerbi" data-title="P&amp;L Reporting Suite" data-images='["PL Report/Home.png","PL Report/PL Report.png","PL Report/Revenue Forecasting.png","PL Report/WIP Report.png","PL Report/Allocation Repor.png","PL Report/Admin.png"]'>
+          <div class="p-thumb p-img">
+            <img src="PL Report/Home.png" alt="PL Report Home" loading="lazy" />
+            <div class="p-overlay"><span class="p-cat-tag">Power BI</span></div>
+          </div>
+          <div class="p-body">
+            <h3>P&amp;L Reporting Suite</h3>
+            <p>A Profit &amp; Loss reporting suite in Power BI covering revenue forecasting, Work In Progress (WIP) tracking, project allocation reporting, and financial performance analytics. Designed for multi-department visibility with admin controls and drill-through capabilities for detailed financial analysis.</p>
+            <div class="p-tags">
+              <span>Power BI</span>
+              <span>Financial Analysis</span>
+              <span>Revenue Forecasting</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-card reveal" data-cat="powerbi" data-title="Project Management Dashboard" data-images='["Project Dashboard/Home.png","Project Dashboard/PM KPI Report.png","Project Dashboard/PM Log.png","Project Dashboard/PM Log 2.png","Project Dashboard/Estimating Log.png","Project Dashboard/Estimating Log 2.png"]'>
+          <div class="p-thumb p-img">
+            <img src="Project Dashboard/Home.png" alt="Project Dashboard Home" loading="lazy" />
+            <div class="p-overlay"><span class="p-cat-tag">Power BI</span></div>
+          </div>
+          <div class="p-body">
+            <h3>Project Management Dashboard</h3>
+            <p>A project management performance dashboard built in Power BI, providing real-time visibility into project KPIs, estimating logs, and PM activity tracking. Consolidates data from multiple sources to give project managers and stakeholders a centralized view of project health, progress, and resource utilization.</p>
+            <div class="p-tags">
+              <span>Power BI</span>
+              <span>Project Management</span>
+              <span>KPI Reporting</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-card reveal" data-cat="dotnet" data-title="QA Auditing Tool" data-images='["QA Tool/Home Screen.png","QA Tool/Sign-In.png","QA Tool/Loading Page.png","QA Tool/Dashboard.png","QA Tool/QA Template.png","QA Tool/Checklist Page.png","QA Tool/Checklist Page 2.png","QA Tool/Export to Excel Functionality.png","QA Tool/User Management.png"]'>
+          <div class="p-thumb p-img">
+            <img src="QA Tool/Home Screen.png" alt="QA Tool Home Screen" loading="lazy" />
+            <div class="p-overlay"><span class="p-cat-tag">.NET App</span></div>
+          </div>
+          <div class="p-body">
+            <h3>QA Auditing Tool</h3>
+            <p>A full-featured Quality Assurance auditing tool developed using .NET (WPF/MVC), featuring secure sign-in with role-based user management, customizable QA checklists and templates, audit tracking, Excel export functionality, and a management dashboard for monitoring compliance and audit results across teams.</p>
+            <div class="p-tags">
+              <span>.NET</span>
+              <span>WPF/MVC</span>
+              <span>Excel Export</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-card reveal" data-cat="analytics" data-title="Recruitment Analytics Report" data-images='["Recruitment Report/Metrics.png","Recruitment Report/Demographics.png","Recruitment Report/Diversity.png"]'>
+          <div class="p-thumb p-img">
+            <img src="Recruitment Report/Metrics.png" alt="Recruitment Report Metrics" loading="lazy" />
+            <div class="p-overlay"><span class="p-cat-tag">HR Analytics</span></div>
+          </div>
+          <div class="p-body">
+            <h3>Recruitment Analytics Report</h3>
+            <p>A recruitment analytics dashboard built in Power BI, visualizing key hiring metrics, workforce demographics, and diversity data. Empowers HR teams and leadership with data-driven insights to optimize talent acquisition strategies and track diversity &amp; inclusion goals effectively.</p>
+            <div class="p-tags">
+              <span>Power BI</span>
+              <span>HR Analytics</span>
+              <span>Data Visualization</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CERTIFICATES ── -->
+  <section id="certificates" class="section">
+    <div class="container">
+      <span class="sec-tag reveal">Credentials</span>
+      <h2 class="sec-title reveal">Certificates &amp; Achievements</h2>
+
+      <div class="cert-grid">
+
+        <div class="cert-card reveal">
+          <div class="cert-top cert-img-wrap">
+            <img src="Azure Solutions Architect Expert.png" alt="Azure Solutions Architect Expert Certificate" loading="lazy" class="cert-thumb" />
+          </div>
+          <div class="cert-body">
+            <span class="cert-issuer">Microsoft</span>
+            <h3>Azure Solutions Architect Expert</h3>
+            <p>Demonstrates expertise in designing and implementing end-to-end solutions on Microsoft Azure, including compute, network, storage, and security. Validates the ability to architect scalable, reliable solutions that meet complex business and technical requirements.</p>
+            <div class="cert-footer">
+              <span><i class="fas fa-calendar-check"></i> Issued July 2025</span>
+              <a href="https://learn.microsoft.com/api/credentials/share/en-us/JeanMayCalomay-7549/2D008064EE891206?sharingId=43F0A1E3FAA431EA" target="_blank" rel="noopener" class="cert-link">Verify <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-top cert-img-wrap">
+            <img src="Azure Administrator Associate.png" alt="Azure Administrator Associate Certificate" loading="lazy" class="cert-thumb" />
+          </div>
+          <div class="cert-body">
+            <span class="cert-issuer">Microsoft</span>
+            <h3>Azure Administrator Associate</h3>
+            <p>Validates skills in implementing, managing, and monitoring Microsoft Azure environments, covering core Azure services, security, governance, and identity management for enterprise-level cloud operations.</p>
+            <div class="cert-footer">
+              <span><i class="fas fa-calendar-check"></i> Issued July 2025</span>
+              <a href="https://learn.microsoft.com/api/credentials/share/en-us/JeanMayCalomay-7549/FAC028C9C25B9206?sharingId=43F0A1E3FAA431EA" target="_blank" rel="noopener" class="cert-link">Verify <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-top cert-img-wrap">
+            <img src="Power Automate RPA Developer Associate.png" alt="Power Automate RPA Developer Associate Certificate" loading="lazy" class="cert-thumb" />
+          </div>
+          <div class="cert-body">
+            <span class="cert-issuer">Microsoft</span>
+            <h3>Power Automate RPA Developer Associate</h3>
+            <p>Certifies proficiency in designing, developing, and troubleshooting Robotic Process Automation (RPA) solutions using Microsoft Power Automate Desktop — enabling automation of repetitive manual tasks across enterprise systems.</p>
+            <div class="cert-footer">
+              <span><i class="fas fa-calendar-check"></i> Issued August 2024</span>
+              <a href="https://learn.microsoft.com/api/credentials/share/en-us/JeanMayCalomay-7549/EF37A3390FBA5C75?sharingId=43F0A1E3FAA431EA" target="_blank" rel="noopener" class="cert-link">Verify <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-top cert-img-wrap">
+            <img src="Power BI Data Analyst Associate.png" alt="Power BI Data Analyst Associate Certificate" loading="lazy" class="cert-thumb" />
+          </div>
+          <div class="cert-body">
+            <span class="cert-issuer">Microsoft</span>
+            <h3>Power BI Data Analyst Associate</h3>
+            <p>Validates the ability to design and build scalable data models, clean and transform data, and create interactive reports and dashboards using Microsoft Power BI — delivering actionable business insights across the enterprise.</p>
+            <div class="cert-footer">
+              <span><i class="fas fa-calendar-check"></i> Issued August 2024</span>
+              <a href="https://learn.microsoft.com/api/credentials/share/en-us/JeanMayCalomay-7549/2D50C139EA53484C?sharingId=43F0A1E3FAA431EA" target="_blank" rel="noopener" class="cert-link">Verify <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-top cert-img-wrap">
+            <img src="Six Sigma Yellow Belt.png" alt="Six Sigma Yellow Belt Certificate" loading="lazy" class="cert-thumb" />
+          </div>
+          <div class="cert-body">
+            <span class="cert-issuer">Six Sigma PH</span>
+            <h3>Six Sigma Yellow Belt</h3>
+            <p>Demonstrates foundational knowledge of Six Sigma methodologies, process improvement principles, and quality management — supporting data-driven decision-making and operational efficiency initiatives across teams.</p>
+            <div class="cert-footer">
+              <span><i class="fas fa-calendar-check"></i> Issued April 2024</span>
+              <a href="https://www.credential.net/24f67d7f-979c-44bb-b901-42aab794be37#gs.d06tq4#acc.H5CXmiIh" target="_blank" rel="noopener" class="cert-link">Verify <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TESTIMONIALS ── -->
+  <section class="section alt-bg testimonials">
+    <div class="container">
+      <span class="sec-tag reveal">References</span>
+      <h2 class="sec-title reveal">References</h2>
+
+      <div class="slider-wrap reveal">
+        <div class="slider-track" id="sliderTrack">
+
+          <div class="t-slide">
+            <div class="t-quote-icon"><i class="fas fa-quote-left"></i></div>
+            <p>"References will be provided upon request. I am happy to connect you with former managers and colleagues who can speak to my technical skills, work ethic, and contributions across my professional experience."</p>
+            <div class="t-author">
+              <div class="t-avatar">JMC</div>
+              <div class="t-info">
+                <h4>Jean May Calomay</h4>
+                <span>Power BI Developer | Consultant</span>
+                <a href="mailto:jmcalomay@gmail.com">jmcalomay@gmail.com &middot; +63 929 9666 175</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="slider-controls">
+          <button class="sl-btn" id="slPrev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+          <div class="sl-dots" id="slDots"></div>
+          <button class="sl-btn" id="slNext" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact" class="section">
+    <div class="container">
+      <span class="sec-tag reveal">Get In Touch</span>
+      <h2 class="sec-title reveal">Contact Me</h2>
+
+      <div class="contact-grid">
+        <div class="contact-left reveal">
+          <h3>Let's Work Together</h3>
+          <p>Whether you need a Power BI dashboard, a Power Platform solution, or a data analytics consultant — I'm here to help. Feel free to reach out and let's discuss how I can add value to your team or project.</p>
+
+          <div class="c-list">
+            <a class="c-item" href="https://maps.google.com/?q=Nangka+Marikina+City+Philippines" target="_blank" rel="noopener">
+              <div class="c-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div><strong>Location</strong><span>Nangka, Marikina City, Philippines</span></div>
+            </a>
+            <a class="c-item" href="tel:+639299666175">
+              <div class="c-icon"><i class="fas fa-phone"></i></div>
+              <div><strong>Phone</strong><span>+63 929 9666 175</span></div>
+            </a>
+            <a class="c-item" href="mailto:jmcalomay@gmail.com">
+              <div class="c-icon"><i class="fas fa-envelope"></i></div>
+              <div><strong>Email</strong><span>jmcalomay@gmail.com</span></div>
+            </a>
+          </div>
+
+          <div class="c-socials">
+            <a href="https://www.linkedin.com/in/jeanmaycalomay" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/jmcalomay" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="mailto:jmcalomay@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-right reveal">
+          <form class="contact-form" id="contactForm" action="https://formsubmit.co/jmcalomay@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New Portfolio Enquiry" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="https://jmcalomay.github.io/JMCalomay/" />
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cName">Full Name *</label>
+                <input type="text" id="cName" name="name" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <label for="cEmail">Email Address *</label>
+                <input type="email" id="cEmail" name="email" placeholder="you@example.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="cSubject">Subject *</label>
+              <input type="text" id="cSubject" name="subject" placeholder="e.g. Power BI Project Inquiry" required />
+            </div>
+            <div class="form-group">
+              <label for="cMessage">Message *</label>
+              <textarea id="cMessage" name="message" rows="6" placeholder="Describe your project or inquiry in as much detail as possible..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <p class="form-note">* I typically respond within 24 hours. For urgent matters, please call directly.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-badge">JMC</div>
+          <div>
+            <strong>Jean May Calomay</strong>
+            <span>Power BI Developer | Consultant</span>
+          </div>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#certificates">Certificates</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/jeanmaycalomay" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/jmcalomay" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="mailto:jmcalomay@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Jean May Calomay. All rights reserved.</p>
+        <p class="footer-quote">"In God we trust; all others must bring data."</p>
+      </div>
+    </div>
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+  </footer>
+
+  <!-- ── PORTFOLIO LIGHTBOX ── -->
+  <div class="lb-overlay" id="lbOverlay" role="dialog" aria-modal="true" aria-label="Project images" style="display:none">
+    <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous image"><i class="fas fa-chevron-left"></i></button>
+    <div class="lb-stage">
+      <img class="lb-img" id="lbImg" src="" alt="" />
+      <div class="lb-loader" id="lbLoader"><i class="fas fa-circle-notch fa-spin"></i></div>
+    </div>
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Next image"><i class="fas fa-chevron-right"></i></button>
+    <div class="lb-footer">
+      <span class="lb-title" id="lbTitle"></span>
+      <span class="lb-counter" id="lbCounter"></span>
+    </div>
+    <div class="lb-dots" id="lbDots"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
